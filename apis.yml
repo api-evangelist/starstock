@@ -1,7 +1,22 @@
 aid: starstock
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/starstock.png
 name: Starstock
-description: Starstock is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Starstock was a sports-card and collectibles trading marketplace surfaced as an a16z
+  portfolio lead. As of the 2026-07-21 enrichment pass, starstock.com 301-redirects to
+  collectiblexchange.com — a Brandon Steiner-founded Shopify-based marketplace for autographed
+  memorabilia, game-used equipment, and trading cards — which publishes no API, developer portal,
+  developer documentation, SDKs, or public GitHub organization. No API surface exists to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/starstock/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,7 +26,12 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 tags:
 - Company
 apis: []
